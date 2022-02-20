@@ -56,7 +56,6 @@ p {
 /* header logo */
 .logo {
   margin-right: 93px;
-  margin-left: 215px;
 
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -104,7 +103,6 @@ p {
 /* header auth-nav */
 .auth-box {
   margin-left: auto;
-  margin-right: 215px;
 }
 
 .auth-nav {
@@ -132,9 +130,6 @@ p {
   color: var(--secondary-blue-text);
 }
 /* main-hero */
-.hero-box {
-}
-
 .hero {
   height: 600px;
   background-color: var(--secondary-dark-bg);
@@ -179,8 +174,6 @@ p {
 .specifics-list {
   display: flex;
   align-items: center;
-  margin-left: 215px;
-  margin-right: 215px;
 
   list-style-type: none;
   padding-left: 0;
@@ -196,6 +189,8 @@ p {
   color: var(--primary-dark-text);
 }
 .specifics-text {
+  text-align: left;
+
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -327,11 +322,25 @@ p {
   background-color: var(--primary-light-bg);
 }
 .button-list {
+  display: flex;
+  align-items: center;
+
   list-style-type: none;
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
 }
+
+.btn-item {
+  display: block;
+  margin-right: 8px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+.btn-item:last-child {
+  margin-left: 0;
+}
+
 .pointer {
   font-family: inherit;
   cursor: pointer;
@@ -345,6 +354,10 @@ p {
   color: var(--primary-light-bg);
 }
 .portfolio-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
   list-style-type: none;
   padding-left: 0;
   margin-top: 0;
