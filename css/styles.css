@@ -235,9 +235,8 @@ p {
 }
 
 .team-item {
-  display: block;
-  text-align: center;
-  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .team-list {
@@ -250,6 +249,10 @@ p {
   margin-bottom: 0;
 }
 .team-title {
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
